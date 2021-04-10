@@ -2,9 +2,9 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium import webdriver
 import time,os, random
 
-URL = "https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dgmail%2Bnew%2Baccount%26oq%3Dgmail%2B%26aqs%3Dchrome.5.69i57j0j69i61l3j0.4643j0j7%26sourceid%3Dchrome%26ie%3DUTF-8&hl=en&dsh=S-888255684%3A1582557994045316&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp"
+URL = "https://accounts.google.com/signup/v2/webcreateaccount"
 
-PASSWORD = "***REMOVED***"
+PASSWORD = "somerandom901843-4891030841-39048password3-482=dfjsla"
 
 
 def readnames():
@@ -39,8 +39,6 @@ def createAccount(driver, fName, lName):
 
 def main():
     
-    u_name = '***REMOVED***'
-    u_pass = '***REMOVED***'
     opts = webdriver.ChromeOptions()
     opts.binary_location = r"C:\chrome 74.0\Chrome-bin\chrome.exe"
     driver = webdriver.Chrome(options = opts)
