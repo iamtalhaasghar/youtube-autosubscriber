@@ -4,7 +4,7 @@ import time,os, random
 
 URL = "https://accounts.google.com/signup/v2/webcreateaccount"
 
-PASSWORD = "somerandom901843-4891030841-39048password3-482=dfjsla"
+PASSWORD = "<random_password_for_new_account>"
 
 
 def readnames():
